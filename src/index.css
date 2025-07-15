@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Code+Pro:wght@400;600;700&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-inter: "Inter", "sans-serif";
+  --font-source: "Source Code Pro", "monospace";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+@layer utilities {
+  .text-shadow-lg {
+    text-shadow: 3px 3px 0px black;
+  }
+}

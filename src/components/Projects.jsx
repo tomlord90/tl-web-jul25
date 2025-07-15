@@ -11,7 +11,7 @@ export default function Projects() {
             </div>
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-3 text-gray-800">Azeti</h3>
-              <p className="text-gray-600 mb-4 leading-relaxed">A MES (manufacturing execution system) platform for the world's largest copper recycler.</p>
+              <p className="text-gray-600 mb-4 leading-relaxed">An MES (manufacturing execution system) platform for the world's largest copper recycler.</p>
               <div className="flex flex-wrap gap-2 mb-4">
                 <span className="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-xs font-medium">React</span>
                 <span className="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-xs font-medium">Next.js</span>

@@ -12,7 +12,7 @@ const toolsSkills = ["Git", "Docker", "Keycloak", "CI/CD", "Agile", "API Gateway
             <h3 className="text-2xl font-semibold mb-6 text-white">Frontend</h3>
             <div className="flex flex-wrap gap-2">
               {frontendSkills.map((skill) => (
-                <span className="bg-gray-200 text-slate-800 px-4 py-2 rounded-full text-sm font-medium hover:bg-red-400 hover:text-white hover:border-white hover:border-4 hover:scale-105 transition-all duration-300">{skill}</span>
+                <span key={skill} className="bg-gray-200 text-slate-800 px-4 py-2 rounded-full text-sm font-medium hover:bg-red-400 hover:text-white hover:border-white hover:border-4 hover:scale-105 transition-all duration-300">{skill}</span>
               ))}
             </div>
           </div>
@@ -20,7 +20,7 @@ const toolsSkills = ["Git", "Docker", "Keycloak", "CI/CD", "Agile", "API Gateway
             <h3 className="text-2xl font-semibold mb-6 text-white">Backend</h3>
             <div className="flex flex-wrap gap-2">
               {backendSkills.map((skill) => (
-                <span className="bg-gray-200 text-slate-800 px-4 py-2 rounded-full text-sm font-medium hover:bg-blue-400 hover:text-white hover:border-white hover:border-4 hover:scale-105 transition-all duration-300">{skill}</span>
+                <span key={skill} className="bg-gray-200 text-slate-800 px-4 py-2 rounded-full text-sm font-medium hover:bg-blue-400 hover:text-white hover:border-white hover:border-4 hover:scale-105 transition-all duration-300">{skill}</span>
               ))}
             </div>
           </div>
@@ -28,7 +28,7 @@ const toolsSkills = ["Git", "Docker", "Keycloak", "CI/CD", "Agile", "API Gateway
             <h3 className="text-2xl font-semibold mb-6 text-white">Tools & DevOps</h3>
             <div className="flex flex-wrap gap-2">
               {toolsSkills.map((skill) => (
-                <span className="bg-gray-200 text-slate-800 px-4 py-2 rounded-full text-sm font-medium hover:bg-yellow-400 hover:text-white hover:border-white hover:border-4 hover:scale-105 transition-all duration-300">{skill}</span>
+                <span key={skill} className="bg-gray-200 text-slate-800 px-4 py-2 rounded-full text-sm font-medium hover:bg-yellow-400 hover:text-white hover:border-white hover:border-4 hover:scale-105 transition-all duration-300">{skill}</span>
               ))}
             </div>
           </div>
